@@ -10,6 +10,3 @@ let (|ValidInput|_|) (input: string) =
     match Int32.TryParse input with
     | true, num -> Some num
     | _ -> None
-
-let product num1 num2 =
-    num1 * num2

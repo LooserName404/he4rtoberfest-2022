@@ -12,8 +12,8 @@ let num1, num2 =
 
 match num1, num2 with
 | ValidInput x, ValidInput y -> 
-    let result = product x y
-    printfn "%d" result
+    let result = x * y
+    printfn $"%d{result}"
 | _ ->
     printfn "Invalid input"
     exit 1
